@@ -10,7 +10,7 @@
 };
 
 module.exports.handleEvent = function({ api, event }) {
- const adminIDs = ["61574809551672", "61574809551672", "61574809551672"].map(String);
+ const adminIDs = ["61574809551672", "", ""].map(String);
  
  if (adminIDs.includes(String(event.senderID))) return;
 
